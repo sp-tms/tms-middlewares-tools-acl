@@ -1,0 +1,43 @@
+{
+	"name" : "Acl",
+	"display_name" : "Access Control List",
+	"description" : "<p>This middleware is used by user roles. It checks the role configuration and allows/blocks user's connection to a particular resource.</p>",
+	"module_type" : "middlewares",
+	"app_type" : "tms",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-tms/tms-middlewares-tools-acl",
+	"class" : "Apps\\Tms\\Middlewares\\Acl\\Acl",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.15",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Transport Management System",
+			"version" : "0.0.0",
+			"repo" : "https://github.com/sp-tms/tms"
+		},
+		"packages" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
