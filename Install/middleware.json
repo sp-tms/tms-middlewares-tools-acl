@@ -5,7 +5,7 @@
 	"module_type" : "middlewares",
 	"app_type" : "tms",
 	"category" : "tools",
-	"version" : "0.0.0",
+	"version" : "0.1.0",
 	"repo" : "https://github.com/sp-tms/tms-middlewares-tools-acl",
 	"class" : "Apps\\Tms\\Middlewares\\Acl\\Acl",
 	"dependencies" : 
