@@ -39,7 +39,7 @@ class Acl extends BaseMiddleware
         }
 
         $this->actions =
-            ['view', 'add', 'update', 'remove', 'msview', 'msupdate'];
+            ['view', 'add', 'update', 'remove', 'msview', 'msupdate', 'activitylogs'];
 
         $rolesArr = $this->basepackages->roles->getAll()->roles;
         $roles = [];
